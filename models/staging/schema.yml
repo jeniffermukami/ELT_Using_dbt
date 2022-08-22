@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+    - name: staging
+      #For bigquery:
+      database: sigma-zodiac-355006
+      schema: trips_data_all
+      tables:
+        - name: external_table_3
+        - name: external_table_4
