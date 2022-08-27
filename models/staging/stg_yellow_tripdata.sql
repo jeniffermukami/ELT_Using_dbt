@@ -31,7 +31,7 @@ select
 
     cast(congestion_surcharge as numeric) as congestion_surcharge
 
-from {{ source('staging','external_table_3') }}
+from {{ source('staging','external_table_2') }}
 where vendorid is not null
 
 -- dbt build --m <model.sql> --var 'is_test_run: false'
@@ -40,5 +40,3 @@ where vendorid is not null
   limit 100
 
 {% endif %}
-
-
