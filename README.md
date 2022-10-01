@@ -1,1 +1,3 @@
-# ny_taxi_rides_zoomcamp
+# ny_taxi_rides
+
+data modelling using dbt
